@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="253dp"
+        android:src="@drawable/ditlogo"/>
+
+    <TextView
+        android:id="@+id/logo_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="cursive"
+        android:text="DIT FINAL PROJECT"
+        android:textAlignment="center"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#0B0A0B"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+
+
+
+</LinearLayout>

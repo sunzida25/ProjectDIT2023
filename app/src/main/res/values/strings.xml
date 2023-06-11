@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">ProjectDIT2023</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="doctor_category">
+        <item>All</item>
+        <item>Medicine</item>
+        <item>Psychology</item>
+        <item>Orthopedic</item>
+    </string-array>
+
+    <string-array name="blood_group">
+        <item>Select Blood Group</item>
+        <item>A Positive(A+)</item>
+        <item>A Negative(A-)</item>
+        <item>B Positive(B+)</item>
+        <item>B Negative(B-)</item>
+        <item>O Positive(O+)</item>
+        <item>O Negative(O-)</item>
+        <item>AB Positive(AB+)</item>
+        <item>AB Negative(AB-)</item>
+    </string-array>
+
+
+    //For Upozela
+    <string-array name="all_division">
+        <item>Select Division</item>
+        <item>Dhaka</item>
+        <item>Chattogram</item>
+        <item>Sylhet</item>
+        <item>Barishal</item>
+        <item>Khulna</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Mymensingh</item>
+    </string-array>
+
+    <string-array name="default_dis">
+        <item>Select Your Division First</item>
+    </string-array>
+
+    <string-array name="dhaka_division">
+        <item>Select District</item>
+        <item>Dhaka</item>
+        <item>Gazipur</item>
+        <item>Kishoreganj</item>
+        <item>Gopalganj</item>
+        <item>Faridpur</item>
+        <item>Narsingdi</item>
+        <item>Narayanganj</item>
+        <item>Munshiganj</item>
+        <item>Manikganj</item>
+        <item>Madaripur</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Tangail</item>
+    </string-array>
+    <string-array name="ctg_division">
+        <item>Select District</item>
+        <item>Brahmanbaria</item>
+        <item>Bandarban</item>
+        <item>Cumilla</item>
+        <item>Chattogram</item>
+        <item>Chandpur</item>
+        <item>Cox’s Bazar</item>
+        <item>Feni</item>
+        <item>Khagrachhari</item>
+        <item>Lakshmipur</item>
+        <item>Noakhali</item>
+        <item>Rangamati</item>
+    </string-array>
+    <string-array name="sylhet_division">
+        <item>Select District</item>
+        <item>Habiganj</item>
+        <item>Moulvibazar</item>
+        <item>Sylhet</item>
+        <item>Sunamganj</item>
+    </string-array>
+    <string-array name="barishal_division">
+        <item>Select District</item>
+        <item>Barishal</item>
+        <item>Bhola</item>
+        <item>Barguna</item>
+        <item>Jhalokati</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+    </string-array>
+    <string-array name="khulna_division">
+        <item>Select District</item>
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jhenaidah</item>
+        <item>Jashore</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Meherpur</item>
+        <item>Magura</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+    </string-array>
+    <string-array name="rajshahi_division">
+        <item>Select District</item>
+        <item>Bogura</item>
+        <item>Chapainawabganj</item>
+        <item>Joypurhat</item>
+        <item>Natore</item>
+        <item>Naogaon</item>
+        <item>Pabna</item>
+        <item>Rajshahi</item>
+        <item>Sirajganj</item>
+    </string-array>
+    <string-array name="rangpur_division">
+        <item>Select District</item>
+        <item>Dinajpur</item>
+        <item>Gaibandha</item>
+        <item>Kurigram</item>
+        <item>Lalmonirhat</item>
+        <item>Nilphamari</item>
+        <item>Panchagarh</item>
+        <item>Rangpur</item>
+        <item>Thakurgaon</item>
+    </string-array>
+    <string-array name="mymensingh_division">
+        <item>Select District</item>
+        <item>Jamalpur</item>
+        <item>Mymensingh</item>
+        <item>Netrokona</item>
+        <item>Sherpur</item>
+    </string-array>
+
+    <string-array name="default_upo">
+        <item>Select Your District First</item>
+    </string-array>
+    <string-array name="default_upo2">
+        <item>Select District</item>
+    </string-array>
+    <string-array name="dhaka_dis">
+        <item>Select Upozila</item>
+        <item>Dhamrai</item>
+        <item>Dohar</item>
+        <item> Keraniganj</item>
+        <item> Nawabganj</item>
+        <item> Savar</item>
+    </string-array>
+
+
+</resources>
