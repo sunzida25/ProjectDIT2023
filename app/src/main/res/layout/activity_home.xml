@@ -8,13 +8,30 @@
     android:orientation="vertical"
     android:background="@drawable/background2">
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/slider_view"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="20dp">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            app:iss_auto_cycle="true"
+            app:iss_period="2000"
+            app:iss_delay="0"
+            android:background="@drawable/ditlogo"
+            tools:ignore="MissingClass" />
+
+    </androidx.cardview.widget.CardView>
+
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:rowCount="3"
         android:columnCount="2"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp">
@@ -81,7 +98,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="   Newsfeed    "
+                    android:text="   Newsfeed   "
                     android:textStyle="bold"
                     android:textSize="20sp"
                     android:textAlignment="center"

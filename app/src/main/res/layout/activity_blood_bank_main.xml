@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BloodBankMain"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:elevation="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="#11F3FBFB">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:elevation="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/donor_img2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="2dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"
+                android:onClick="btnToProfile"/>
+
+            <Spinner
+                android:id="@+id/filterBloodSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+            <Spinner
+                android:id="@+id/filterDivisionSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/filterBloodSpinner">
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/filterDistrictSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/filterDivisionSpinner">
+            </Spinner>
+            <Spinner
+                android:id="@+id/filterUpozilaSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/filterDistrictSpinner">
+            </Spinner>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recylerView4">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
