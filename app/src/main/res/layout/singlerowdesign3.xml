@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+app:cardCornerRadius="10dp"
+android:elevation="8dp"
+app:cardUseCompatPadding="true"
+android:layout_marginTop="5dp"
+android:layout_marginLeft="5dp"
+android:layout_marginRight="5dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/name_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="This is Demo Name"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_alignRight="@+id/phone_text1"/>
+
+    <TextView
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_text1"
+        android:text="This is Phone"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_below="@id/name_text1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5sp"
+        />
+
+
+    <Button
+        android:id="@+id/call_button2"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignRight="@+id/phone_text1"
+        android:background="#E8E2E2"
+        android:drawableLeft="@drawable/call_icon"
+        android:text="Call"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+
+
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

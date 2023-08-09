@@ -4,6 +4,8 @@
 
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="women_heading">EPI immunization schedule of Bangladesh for women of child bearing age (15-49 years)</string>
+    <string name="covidInfo">Currently, there is a well-organized website maintained by the Health Department of the Government of Bangladesh for information and work related to the Covid-19 vaccine.</string>
 
 
     <string-array name="blood_group">

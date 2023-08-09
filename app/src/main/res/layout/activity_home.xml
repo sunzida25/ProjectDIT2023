@@ -129,16 +129,16 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/add_post"/>
+                    android:src="@drawable/ambulance"/>
                 <TextView
                     android:layout_marginTop="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Add Post"
+                    android:text="Helpline"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:textAlignment="center"
-                    android:textColor="#0A0B0B"/>
+                    android:textColor="#0A0A0B"/>
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

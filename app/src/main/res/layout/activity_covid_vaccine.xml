@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CovidVaccine"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:padding="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/covidInfo"
+        android:textColor="#0C0C0C"
+        android:textStyle="italic"
+        android:textSize="25sp">
+    </TextView>
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Click the button below to visit the website"
+        android:textSize="20sp"
+        android:textColor="#FF9800">
+    </TextView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/down_arrow">
+    </ImageView>
+
+    <Button
+        android:id="@+id/covidButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+    </Button>
+
+</LinearLayout>
