@@ -25,9 +25,9 @@ public class Helpline extends AppCompatActivity {
         recyclerView3=findViewById(R.id.recylerView1);
         recyclerView3.setLayoutManager(new LinearLayoutManager(this));
 
-        FirebaseRecyclerOptions<model1> options =
-                new FirebaseRecyclerOptions.Builder<model1>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Helpline_num"), model1.class)
+        FirebaseRecyclerOptions<model3> options =
+                new FirebaseRecyclerOptions.Builder<model3>()
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Helpline_num"), model3.class)
                         .build();
 
         adapter3=new myAdapter3(options,Helpline.this);
@@ -78,9 +78,9 @@ public class Helpline extends AppCompatActivity {
 
 
 
-        FirebaseRecyclerOptions<model1> options =
-                new FirebaseRecyclerOptions.Builder<model1>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Helpline_num").orderByChild("o_name").startAt(s).endAt(s+"\uf8ff"), model1.class)
+        FirebaseRecyclerOptions<model3> options =
+                new FirebaseRecyclerOptions.Builder<model3>()
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Helpline_num").orderByChild("o_name").startAt(s).endAt(s+"\uf8ff"), model3.class)
                         .build();
 
         adapter3= new myAdapter3(options, Helpline.this);

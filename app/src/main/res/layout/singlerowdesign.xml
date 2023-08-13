@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_marginTop="12sp"
+            android:id="@+id/hos_pic"
+            android:layout_width="100sp"
+            android:layout_height="110sp"
+            android:src="@drawable/otp_cover">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/hos_pic"
+            android:text="This is Demo Name"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_text"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/hos_pic"
+            android:text="This is Address"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_marginTop="3sp"/>
+
+        <TextView
+            android:id="@+id/phone_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address_text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7sp"
+
+            android:layout_toRightOf="@+id/hos_pic"
+            android:text="This is Phone"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/available_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone_text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7sp"
+            android:layout_toRightOf="@+id/hos_pic"
+            android:text="Available Vaccine:"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vaccine_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7sp"
+            android:layout_below="@id/phone_text"
+            android:layout_alignEnd="@id/available_text"
+            android:text="Pentavalent"
+            android:textColor="#EC1414"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/direction_button"
+            android:layout_marginLeft="88dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/direction"
+            android:text="Get Direction"
+            android:layout_below="@id/available_text">
+
+        </Button>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

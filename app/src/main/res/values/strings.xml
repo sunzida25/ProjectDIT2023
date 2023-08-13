@@ -8,6 +8,10 @@
     <string name="covidInfo">Currently, there is a well-organized website maintained by the Health Department of the Government of Bangladesh for information and work related to the Covid-19 vaccine.</string>
 
 
+    <string name="title_activity_hospital_map">HospitalMap</string>
+
+
+    //For Upozela
     <string-array name="blood_group">
         <item>Select Blood Group</item>
         <item>A Positive(A+)</item>
@@ -20,8 +24,6 @@
         <item>AB Negative(AB-)</item>
     </string-array>
 
-
-    //For Upozela
     <string-array name="all_division">
         <item>Select Division</item>
         <item>Dhaka</item>
@@ -37,7 +39,6 @@
     <string-array name="default_dis">
         <item>Select Your Division First</item>
     </string-array>
-
     <string-array name="dhaka_division">
         <item>Select District</item>
         <item>Dhaka</item>
@@ -119,6 +120,7 @@
         <item>Rangpur</item>
         <item>Thakurgaon</item>
     </string-array>
+
     <string-array name="mymensingh_division">
         <item>Select District</item>
         <item>Jamalpur</item>
@@ -126,7 +128,6 @@
         <item>Netrokona</item>
         <item>Sherpur</item>
     </string-array>
-
     <string-array name="default_upo">
         <item>Select Your District First</item>
     </string-array>
@@ -141,6 +142,7 @@
         <item> Nawabganj</item>
         <item> Savar</item>
     </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
 
 
 </resources>
