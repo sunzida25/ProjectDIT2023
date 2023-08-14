@@ -24,6 +24,16 @@
         <item>AB Negative(AB-)</item>
     </string-array>
 
+    <string-array name="vaccine_name">
+        <item>TT</item>
+        <item>PCV</item>
+        <item>OPV</item>
+        <item>MR</item>
+        <item>BCG</item>
+        <item>Measles</item>
+        <item>Pentavalent</item>
+    </string-array>
+
     <string-array name="all_division">
         <item>Select Division</item>
         <item>Dhaka</item>

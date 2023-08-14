@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5sp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:elevation="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/background2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/request_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/donor_img"
+                android:gravity="center"
+                android:text="Requested For Blood"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/donor_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/request_text"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="Sunzida Akter"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/hospital_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/donor_name"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:text="Al Razi Hospital"
+                android:textColor="#F44336"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/bloodGroupId"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/donor_name"
+                android:layout_toRightOf="@id/hospital_name"
+                android:gravity="right"
+                android:text="A+"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/addressId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hospital_name"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:text="Dhaka"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/phoneId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addressId"
+                android:gravity="left"
+                android:text="01834871500"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp" />
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

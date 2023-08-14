@@ -5,9 +5,14 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 
 public class CommunityMap extends AppCompatActivity {
 
@@ -19,7 +24,7 @@ public class CommunityMap extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_community_map);
 
-        recyclerView1=findViewById(R.id.recylerView1);
+        recyclerView1 = findViewById(R.id.recylerView1);
         recyclerView1.setLayoutManager(new LinearLayoutManager(this));
 
         FirebaseRecyclerOptions<model1> options =
@@ -27,7 +32,7 @@ public class CommunityMap extends AppCompatActivity {
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("Community_map"), model1.class)
                         .build();
 
-        adapter1=new myAdapter1(options, CommunityMap.this);
+        adapter1 = new myAdapter1(options, CommunityMap.this);
         recyclerView1.setAdapter(adapter1);
     }
 
@@ -43,4 +48,6 @@ public class CommunityMap extends AppCompatActivity {
         adapter1.stopListening();
 
     }
+
+
 }

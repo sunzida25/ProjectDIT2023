@@ -32,8 +32,8 @@ private ActivityMapsBinding binding;
         mapFragment.getMapAsync(this);
 
         //Receive Data from MyAdapter1
-        longi=getIntent().getDoubleExtra("Latitude",0.0000000000000000000);
-        lati=getIntent().getDoubleExtra("Longitude",0.0000000000000000000);
+        lati=getIntent().getDoubleExtra("Latitude",0.0000000000000000000);
+        longi=getIntent().getDoubleExtra("Longitude",0.0000000000000000000);
         hos_name=getIntent().getStringExtra("Hos_name");
     }
 

@@ -18,21 +18,5 @@
         android:layout_marginBottom="253dp"
         android:src="@drawable/ditlogo"/>
 
-    <TextView
-        android:id="@+id/logo_text"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="0dp"
-        android:fontFamily="cursive"
-        android:text="DIT FINAL PROJECT"
-        android:textAlignment="center"
-        android:textColorHighlight="#000000"
-        android:textColorLink="#0B0A0B"
-        android:textSize="35sp"
-        android:textStyle="bold" />
-
-
-
-
 
 </LinearLayout>

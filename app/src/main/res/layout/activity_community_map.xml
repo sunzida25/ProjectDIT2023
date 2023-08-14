@@ -28,7 +28,7 @@
             android:padding="10dp">
 
             <Spinner
-                android:id="@+id/filterBloodSpinner"
+                android:id="@+id/filterVaccineSpinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:tooltipText="sd">

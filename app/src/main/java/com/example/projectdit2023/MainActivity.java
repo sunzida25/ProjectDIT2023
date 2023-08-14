@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
     Animation topAnim,bottomAnim;
     ImageView logo;
-    TextView logo_text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         bottomAnim= AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
 
         logo=findViewById(R.id.logo_image);
-        logo_text=findViewById(R.id.logo_text);
+
 
         logo.setAnimation(topAnim);
-        logo_text.setAnimation(bottomAnim);
+
 
         new Handler().postDelayed(new Runnable() {
             @Override
