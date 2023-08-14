@@ -27,10 +27,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:layout_toRightOf="@id/donor_img"
                 android:gravity="center"
                 android:text="Requested For Blood"
-                android:textColor="#000"
+                android:textColor="#1447E4"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
@@ -42,37 +41,37 @@
                 android:layout_marginLeft="20dp"
                 android:gravity="center"
                 android:text="Sunzida Akter"
-                android:textColor="#000"
+                android:textColor="#267CA3"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
 
             <TextView
                 android:id="@+id/hospital_name"
-                android:layout_width="wrap_content"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/donor_name"
                 android:layout_marginLeft="20dp"
                 android:gravity="left"
                 android:text="Al Razi Hospital"
-                android:textColor="#F44336"
+                android:textColor="#090808"
                 android:textSize="22sp" />
 
             <TextView
+                android:layout_marginTop="10dp"
                 android:id="@+id/bloodGroupId"
-                android:layout_width="70dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/donor_name"
                 android:layout_toRightOf="@id/hospital_name"
-                android:gravity="right"
-                android:text="A+"
-                android:textColor="#000"
+                android:text="AB+"
+                android:textColor="#ED0404"
                 android:layout_marginLeft="20dp"
-                android:textSize="50sp" />
+                android:textSize="40sp" />
 
             <TextView
                 android:id="@+id/addressId"
-                android:layout_width="wrap_content"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/hospital_name"
                 android:layout_marginLeft="20dp"
@@ -83,7 +82,7 @@
 
             <TextView
                 android:id="@+id/phoneId"
-                android:layout_width="wrap_content"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/addressId"
                 android:gravity="left"
@@ -91,6 +90,124 @@
                 android:textColor="#000"
                 android:layout_marginLeft="20dp"
                 android:textSize="18sp" />
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:id="@+id/numberofId"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phoneId"
+                android:gravity="left"
+                android:text="Number of bag required:"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/bagId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phoneId"
+                android:layout_toRightOf="@id/numberofId"
+                android:gravity="right"
+                android:text="2 Bags"
+                android:textColor="#E68C07"
+                android:layout_marginLeft="20dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:id="@+id/causeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/numberofId"
+                android:gravity="left"
+                android:text="Cause for Blood:"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/cause2Id"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bagId"
+                android:layout_toRightOf="@id/causeId"
+                android:text="Pregnancy"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/withinId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cause2Id"
+                android:gravity="left"
+                android:text="Required Blood Within:"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/daysId"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cause2Id"
+                android:layout_toRightOf="@id/withinId"
+                android:text="30days"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/posttimeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/withinId"
+                android:gravity="left"
+                android:text="Time of posting:"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/timeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/daysId"
+                android:layout_toRightOf="@id/posttimeId"
+                android:text="10:30 pm,"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/dateId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/daysId"
+                android:layout_toRightOf="@id/timeId"
+                android:text="15 August 2023"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/commentId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/posttimeId"
+                android:text="Comment"
+                android:textColor="#000"
+                android:gravity="center"
+                android:background="#D3E6E6"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp" />
 
 
 
